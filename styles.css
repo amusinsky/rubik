@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.main-header {
+  background-color: #1F2937;
+  color: rgb(176, 176, 176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+/* Navigation link styles */
+.nav-links a {
+  color: rgb(172, 172, 172);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+
+
+
+.main-content {
+
+  display: flex;
+  justify-content: flex-start; /* align items left */
+  align-items: flex-start;
+ 
+  background-color: #1F2937;
+  max-width: auto;   /* make box wider */
+  min-height: 300px;  /* make box taller */
+  margin: 40px auto;  /* center and add space outside */
+  padding: 60px; 
+  margin: 0;
+
+   
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 10px; /* space between items */
+  max-width: 500px;
+  color: aliceblue;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtext {
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+
+.signup-button {
+  background-color: #3a9dff; /* Azure blue */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 30%; 
+}
+ 
+.content-wrapper {
+  display: flex;
+  justify-content: space-between; /* text left, image right */
+  align-items: flex-start;
+  gap: 40px; /* space between text and image */
+}
+
+/* Optional: make image fit nicely */
+.image-content img {
+            /* reset any auto margin */
+  display: flex;
+  justify-content: center;
+  max-width: 400px;  /* adjust as needed */
+  height: auto;
+  border-radius: 8px;
+  margin-left: 0; 
+  
+  
+}
+
+
+.info-section {
+  display: flex;
+  flex-direction: column; /* stack middle text and squares */
+  align-items: center;    /* center everything horizontally */
+  padding: 60px 20px;
+  gap: 40px; /* space between middle text and squares */
+}
+
+.middle-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  max-width: 600px;
+}
+
+.squares-container {
+  display: flex;
+  gap: 20px; /* space between squares */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: center;
+}
+
+.square {
+  background-color: #ADD8E6; /* light blue */
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}

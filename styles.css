@@ -74,7 +74,7 @@ body {
 
 
 .signup-button {
-  background-color: #3a9dff; /* Azure blue */
+  background-color: #2592ff; /* Azure blue */
   color: white;
   border: none;
   padding: 12px 30px;
@@ -139,4 +139,90 @@ body {
   border-radius: 8px;
   text-align: center;
   font-weight: bold;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  width: 100vw;            /* full width of viewport */
+  height: 300px;           /* rectangle height */
+  background-color: #ebebeb;  /* gray background */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quote-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;        /* Roboto Black */
+  font-size: 2rem;
+  color: #000000;
+}
+
+
+.azure-container {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  width: 800px;             /* square width */
+  height: 200px;            /* square height */
+  background-color: #007FFF; /* Azure blue */
+  margin: 50px auto;        /* center square horizontally with spacing */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;   /* include padding inside square */
+  border-radius: 10px;      /* optional: rounded corners */
+}
+
+.azure-content {
+  text-align: center;
+}
+
+.azure-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.signup-button {
+  background-color: #82c7ff;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #a7c6ff;
+}
+
+
+
+.footer {
+  width: 100vw;              /* full width */
+  background-color: #1F2937;     /* dark gray / almost black */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
 }
